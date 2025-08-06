@@ -62,7 +62,6 @@ function Slider() {
                         <img src="movie.image" />
                         <h3>{movie.title}</h3>
                         <p>{movie.genre}</p>
-                        
                     </div>
 
                 </div>
