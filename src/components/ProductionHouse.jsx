@@ -41,7 +41,7 @@ function ProductionHouse() {
         }
     ]
     return (
-        <div className='w-full flex md:px-9 gap-5'>
+        <div className='w-full flex md:px-12 gap-5'>
             {cardList.map((item) => (
 
                 <div className='border-2 border-gray-500  hover:scale-100 rounded-lg transition-all duration-300 ease-in-out'>
