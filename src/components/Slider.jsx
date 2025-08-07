@@ -12,6 +12,7 @@ import seven from './../assets/Images/seven.webp'
 import fightclub from './../assets/Images/fight club.webp'
 import Titanic from './../assets/Images/titanic.webp'
 import './../index.css'
+import { HiChevronLeft, HiChevronRight } from 'react-icons/hi2'
 
 function Slider() {
     const TitleMovie = [
@@ -81,20 +82,32 @@ function Slider() {
             genre: "Adventure"
         }
     ];
+    const slideRight = (element) => {
+        element.scrollLeft += 800
+    }
+    const slideLeft = (element) => {
+        element.scrollLeft -= 800
+    }
+
 
     return (
-        <div className='flex  w-full px-6 scrollbar-hide snap-x snap-mandatory scroll-smooth'>
-            {TitleMovie.map((movie, index) => (
-                <div key={index} className='min-w-[800px] flex-shrink-0 ' >
-                    <div className='mr-6'>
-                        <img src={movie.image} className='w-full h-[400px] object-cover mr-5'/>
-                        <h3>{movie.title}</h3>
-                        <p>{movie.genre}</p>
-                    </div>
+        <div>
+            <HiChevronLeft className='hidden md:block text-white text-[40px] absolute  mt-[150px] cursor-pointer'
+            onClick={()=>slideLeft()} />
+            <HiChevronRight className='hidden md:block text-white text-[40px] absolute  mt-[150px] right-0 cursor-pointer' onClick={()=>slideRight()} />
+            <div className='flex  w-full px-11 scrollbar-none snap-x snap-mandatory scroll-smooth' >
+                {TitleMovie.map((movie, index) => (
+                    <div key={index} className='min-w-[800px] flex-shrink-0' >
+                        <div className='mr-6'>
+                            <img src={movie.image} className='w-full h-[400px] object-cover mr-5 rounded-3xl hover:border-[3px] border-gray-400 transition-all duration-100 ease-in-out' />
+                            <h3 className='text-center text-teal-200 text-4xl mb-2 mt-2'>{movie.title}</h3>
+                            <p className='text-center text-teal-200 text-3xl'>{movie.genre}</p>
+                        </div>
 
-                </div>
-            )
-            )}
+                    </div>
+                )
+                )}
+            </div>
         </div>
     )
 }
