@@ -19,67 +19,54 @@ function Slider() {
         {
             title: "Avengers: Endgame",
             image: Avenger,
-            genre: "Action"
         },
         {
             title: "The Lion King",
-            image: LionKing,
-            genre: "Animation"
+            image: LionKing
         },
         {
             title: "Frozen II",
             image: Frozen2,
-            genre: "Fantasy"
         },
         {
             title: "Black Panther",
             image: blackpanther,
-            genre: "Superhero"
         },
         {
             title: "Avatar: The Way of Water",
             image: avatar,
-            genre: "Sci-Fi"
         },
         {
             title: "Incredibles 2",
             image: incredible,
-            genre: "Animation"
         },
         {
             title: "Guardians of the Galaxy",
             image: guardian,
-            genre: "Action"
         },
         {
             title: "Toy Story 4",
             image: toystory,
-            genre: "Animation"
         },
         {
             title: "Doctor Strange",
             image: doctorstrange,
-            genre: "Superhero"
         },
         {
             title: "Moana",
             image: moana,
-            genre: "Adventure"
         },
         {
             title: "Seven",
             image: seven,
-            genre: "Adventure"
         },
         {
             title: "Fight Club",
             image: fightclub,
-            genre: "Adventure"
         },
         {
             title: "Titanic",
             image: Titanic,
-            genre: "Adventure"
         }
     ];
     const slideRight = () => {
@@ -102,11 +89,10 @@ function Slider() {
 
             <div id='slider' className='flex  w-full overflow-x-scroll px-11 scrollbar-hide snap-x snap-mandatory scroll-smooth' >
                 {TitleMovie.map((movie, index) => (
-                    <div key={index} className='min-w-[1400px] flex-shrink-0' >
-                        <div className='mr-6' >
+                    <div key={index} className='min-w-[1400px] flex-shrink-0 py-4' >
+                        <div className='mr-6 mb-4' >
                             <img src={movie.image} className='w-full h-[400px] object-left-top mr-5 rounded-3xl hover:border-[3px] border-gray-400 transition-all duration-100 ease-in-out' />
-                            <h3 className='text-center text-teal-200 text-4xl mb-2 mt-2'>{movie.title}</h3>
-                            <p className='text-center text-teal-200 text-3xl'>{movie.genre}</p>
+                            <h3 className='text-center text-teal-200 text-4xl mb-2 py-7'>{movie.title}</h3>
                         </div>
 
                     </div>

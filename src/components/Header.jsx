@@ -1,5 +1,5 @@
 import profile from './../assets/Images/profile.png'
-import logo from "./../assets/Images/logo.jpg"
+import logo from "./../assets/Images/logo.png"
 import { HiHome, HiMagnifyingGlass, HiStar, HiPlayCircle, HiTv } from "react-icons/hi2"
 import { HiPlus, HiDotsVertical } from 'react-icons/hi'
 import HeaderItem from "./HeaderItem"
@@ -34,9 +34,9 @@ function Header() {
         },
     ]
     return (
-        <div className="flex items-center gap-8 justify-between p-5 px-18">
+        <div className="flex items-center gap-8 justify-between p-5 px-8 mt-7" >
             <div className='flex items-center gap-8'>
-                {/* <img src={logo} className='w-[80px] object-center md:w-[115px] object-fill' /> */}
+                { <img src={logo} className='w-[80px] object-center md:w-[115px] object-fill' /> }
                 <div className=' w-[50px] hidden md:flex gap-8'>
                     {menu.map((item) => (
                         <HeaderItem name={item.name} Icon={item.icon} />
