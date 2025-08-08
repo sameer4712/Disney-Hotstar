@@ -22,13 +22,13 @@ function ActionMovie() {
         },
     ]
     return (
-        <div className='mt-12 '>
+        <div className='mt-20 '>
             <h2 className='text-center mb-12 text-4xl font-bold'>Movie Series</h2>
-            <div className='w-full flex justify-around px-14 shadow-2xl shadow-gray-600'>
+            <div className='w-full flex justify-around px-14 '>
 
                 {TitleMovie.map((item) => (
-                    <div className='hover:scale-90 hover:text-red-600 transition-all duration-150 ease-in-out'>
-                        <img src={item.image} className='object-cover h-[500px] rounded-2xl border-2 border-gray-500' />
+                    <div className='hover:scale-90 hover:text-red-600 transition-all duration-250 ease-in-out mb-20 '  >
+                        <img src={item.image} className='object-cover h-[500px] rounded-2xl border-2 border-gray-4 00 shadow-xl shadow-gray-800 hover:border-4 border-gray-400'/>
                         <h2 className='text-center mt-4 text-3xl font-bold'>{item.title}</h2>
                     </div>
                 ))}
