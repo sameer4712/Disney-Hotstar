@@ -41,12 +41,12 @@ function ProductionHouse() {
         }
     ]
     return (
-        <div className='w-full flex md:px-12 gap-5'>
+        <div className='w-full flex md:px-12 gap-5 '>
             {cardList.map((item) => (
 
-                <div className='border-2 border-gray-500  hover:scale-100 rounded-lg transition-all duration-300 ease-in-out'>
-                    <video src={item.video} autoPlay loop playsInline muted className='absolute rounded-lg opacity-0 hover:opacity-30' />
-                    <img src={item.image} className='w-full z-10' />
+                <div className='border-2 border-gray-500 shadow-lg shadow-gray-800 bg-gray-800 hover:scale-100 rounded-lg transition-all duration-300 ease-in-out'>
+                    <video src={item.video} autoPlay loop playsInline muted className='absolute rounded-lg opacity-0 hover:opacity-70' />
+                    <img src={item.image} className='w-full z-10 ' />
                 </div>
 
             ))}

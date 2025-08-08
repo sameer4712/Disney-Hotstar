@@ -92,7 +92,7 @@ function Slider() {
                     <div key={index} className='min-w-[1400px] flex-shrink-0 py-4' >
                         <div className='mr-6 mb-4' >
                             <img src={movie.image} className='w-full h-[400px] object-left-top mr-5 rounded-3xl hover:border-[3px] border-gray-400 transition-all duration-100 ease-in-out' />
-                            <h3 className='text-center text-teal-200 text-4xl mb-2 py-7'>{movie.title}</h3>
+                            <h3 className='text-center text-teal-200 text-4xl mb-2 py-7 font-bold'>{movie.title}</h3>
                         </div>
 
                     </div>
