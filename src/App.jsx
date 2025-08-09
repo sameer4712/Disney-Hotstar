@@ -1,3 +1,4 @@
+
 import ActionMovie from './components/ActionMovie'
 import AnimationMovies from './components/AnimationMovies'
 import NavBar from './components/NavBar'
@@ -8,7 +9,6 @@ function App() {
 
   return (
     <>
-    
       <NavBar />
       <Slider />
       <ProductionHouse />
