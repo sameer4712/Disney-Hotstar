@@ -27,7 +27,7 @@ function ActionMovie() {
             <div className='w-full flex justify-around px-14 '>
 
                 {TitleMovie.map((item) => (
-                    <div className='hover:scale-90 hover:text-red-600 transition-all duration-250 ease-in-out mb-20 '  >
+                    <div className=' text-gray-300 hover:scale-90 hover:text-blue-300 transition-all duration-250 ease-in-out mb-20 cursor-pointer'  >
                         <img src={item.image} className='object-cover h-[500px] rounded-2xl border-2 border-gray-4 00 shadow-xl shadow-gray-800 hover:border-4 border-gray-400'/>
                         <h2 className='text-center mt-4 text-3xl font-bold'>{item.title}</h2>
                     </div>

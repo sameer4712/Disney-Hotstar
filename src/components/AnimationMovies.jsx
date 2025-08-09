@@ -37,9 +37,9 @@ function AnimationMovies() {
             <h1 className='text-center font-bold text-4xl'>Top Animation Movies</h1>
             <div className='flex justify-center gap-7 px-10 mt-20'>
                 {AnimationList.map((item) => (
-                    <div className=' hover:scale-110 transition-all duration-400 ease-in-out '>
+                    <div className=' text-gray-300 hover:scale-110 transition-all duration-400 ease-in-out cursor-pointer hover:text-blue-300'>
                         <img src={item.image} className=' w-full h-[400px] border-1 rounded-lg' />
-                        <h2 className=' mt-8 text-center font-bold text-2xl text-gray-300'>{item.title}</h2>
+                        <h2 className=' mt-8 text-center font-bold text-2xl'>{item.title}</h2>
                     </div>
                 ))}
             </div>

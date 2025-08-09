@@ -44,7 +44,7 @@ function ProductionHouse() {
         <div className='w-full flex md:px-12 gap-5 '>
             {cardList.map((item) => (
 
-                <div className='border-2 border-gray-500 shadow-lg shadow-gray-800 bg-gray-800 hover:scale-110 rounded-lg transition-all duration-300 ease-in-out'>
+                <div className='border-2 border-gray-500 shadow-lg shadow-gray-800 bg-gray-800 hover:scale-110 rounded-lg transition-all duration-300 ease-in-out cursor-pointer'>
                     <video src={item.video} autoPlay loop playsInline muted className='absolute rounded-lg opacity-0 hover:opacity-70' />
                     <img src={item.image} className='w-full z-10 ' />
                 </div>
