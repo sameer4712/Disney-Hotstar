@@ -39,7 +39,7 @@ function AnimationMovies() {
                 {AnimationList.map((item) => (
                     <div className=' text-gray-300 hover:scale-110 transition-all duration-400 ease-in-out cursor-pointer hover:text-blue-300'>
                         <img src={item.image} className=' w-full h-[400px] border-1 rounded-lg' />
-                        <h2 className=' mt-8 text-center font-bold text-2xl'>{item.title}</h2>
+                        <h2 className=' mt-8 text-center font-bold text-2xl mb-10'>{item.title}</h2>
                     </div>
                 ))}
             </div>
