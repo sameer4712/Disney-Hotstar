@@ -86,7 +86,6 @@ function Slider() {
             <HiChevronLeft className='hidden md:block text-white text-[55px] absolute  mt-[150px] cursor-pointer'
                 onClick={slideLeft} />
 
-
             <div id='slider' className='flex  overflow-x-scroll px-4 scrollbar-hide snap-x snap-mandatory scroll-smooth gap-5 cursor-pointer' >
                 {TitleMovie.map((movie, index) => (
                     <div key={index} className='flex-shrink-0 py-4 ' >
