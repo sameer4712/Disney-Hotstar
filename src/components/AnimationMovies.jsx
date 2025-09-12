@@ -47,4 +47,5 @@ function AnimationMovies() {
     )
 }
 
+
 export default AnimationMovies
