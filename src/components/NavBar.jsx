@@ -5,6 +5,7 @@ import logo from "./../assets/Images/logo.png"
 function NavBar() {
   return (
     <nav className="flex justify-between px-15">
+      
       <div className="flex  text-2xl font-medium py-6 items-center gap-10 text-gray-300  ">
         <Link to='/'>
           <img className='w-[10rem] items-center' src={logo} alt="" />
