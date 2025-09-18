@@ -48,7 +48,6 @@ function ProductionHouse() {
                     <video src={item.video} autoPlay loop playsInline muted className='absolute rounded-lg opacity-0 hover:opacity-70' />
                     <img src={item.image} className='w-full z-10 ' />
                 </div>
-
             ))}
 
         </div>
