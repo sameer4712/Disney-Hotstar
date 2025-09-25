@@ -31,7 +31,7 @@ function ActionMovie() {
                         <h2 className='text-center mt-4 text-3xl font-bold'>{item.title}</h2>
                     </div>
                 ))}
-                
+            
             </div>
         </div>
     )
