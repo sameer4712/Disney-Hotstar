@@ -21,6 +21,7 @@ function ActionMovie() {
             image: johnwick4,
         },
     ]
+    
     return (
         <div className='mt-20 '>
             <h2 className='text-center mb-12 text-4xl font-bold'>Movie Series</h2>
