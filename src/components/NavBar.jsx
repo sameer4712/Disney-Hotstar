@@ -35,7 +35,6 @@ function NavBar() {
           <img className='w-[4.2rem] items-center' src={profile} />
         </Link>
       </div>
-
     </nav>
   )
 }
