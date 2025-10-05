@@ -82,7 +82,6 @@ function Slider() {
     return (
         <div>
 
-
             <HiChevronLeft className='hidden md:block text-white text-[55px] absolute  mt-[150px] cursor-pointer'
                 onClick={slideLeft} />
 
