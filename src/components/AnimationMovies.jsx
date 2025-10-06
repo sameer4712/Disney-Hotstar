@@ -5,6 +5,7 @@ import RiseOfTheGuardian from './../assets/Images/riseoftheguardians.jpg'
 import tintin from './../assets/Images/tintin.jpg'
 import rango from './../assets/Images/rango.jpg'
 
+
 function AnimationMovies() {
     const AnimationList = [
         {
