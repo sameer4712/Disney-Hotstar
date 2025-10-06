@@ -11,7 +11,6 @@ import nationalGV from './../assets/Videos/national-geographic.mp4'
 import pixarV from './../assets/Videos/pixar.mp4'
 import { startSession } from 'mongoose'
 
-
 function ProductionHouse() {
     const cardList = [
         {
