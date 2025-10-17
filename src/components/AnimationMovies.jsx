@@ -7,6 +7,7 @@ import rango from './../assets/Images/rango.jpg'
 
 
 function AnimationMovies() {
+    
     const AnimationList = [
         {
             title: "TARZAN",
