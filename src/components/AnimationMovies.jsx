@@ -7,7 +7,7 @@ import rango from './../assets/Images/rango.jpg'
 
 
 function AnimationMovies() {
-    
+
     const AnimationList = [
         {
             title: "TARZAN",
@@ -35,6 +35,7 @@ function AnimationMovies() {
         },
     ]
     return (
+        
         <div>
             <h1 className='text-center font-bold text-4xl'>Top Animation Movies</h1>
             <div className='flex justify-center gap-7 px-10 mt-20'>
