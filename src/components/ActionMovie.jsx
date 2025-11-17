@@ -3,6 +3,7 @@ import johnwick2 from './../assets/Images/johnWick2.jpg'
 import johnwick3 from './../assets/Images/johnWick3.jpg'
 import johnwick4 from './../assets/Images/johnWick4.jpg'
 function ActionMovie() {
+    
     const TitleMovie = [
         {
             title: "John Wick: Chapter 1",
